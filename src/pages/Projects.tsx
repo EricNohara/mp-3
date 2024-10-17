@@ -4,6 +4,8 @@ import {
   ImgContentContainer,
 } from "../components/GlobalStyledComponents";
 
+import { BtnRow, CalcBtnContainer, Calculator } from "../components/Calculator";
+
 export default function Projects() {
   return (
     <>
@@ -129,7 +131,7 @@ export default function Projects() {
       </SubcontentContainer>
       <SubcontentContainer>
         <h2>Simple Calculator</h2>
-        <form id="calculator">
+        <Calculator>
           <input
             id="num1-input"
             type="number"
@@ -142,34 +144,34 @@ export default function Projects() {
             placeholder="Number 2"
             required
           />
-          <div class="calc-btn-container">
-            <div class="btn-row">
+          <CalcBtnContainer>
+            <BtnRow>
               <button id="add-btn">
-                <i class="fa-solid fa-plus"></i>
+                <i className="fa-solid fa-plus"></i>
               </button>
               <button id="minus-btn">
-                <i class="fa-solid fa-minus"></i>
+                <i className="fa-solid fa-minus"></i>
               </button>
               <button id="power-btn">
-                <i class="fa-solid fa-superscript"></i>
+                <i className="fa-solid fa-superscript"></i>
               </button>
-            </div>
-            <div class="btn-row">
+            </BtnRow>
+            <BtnRow>
               <button id="divide-btn">
-                <i class="fa-solid fa-divide"></i>
+                <i className="fa-solid fa-divide"></i>
               </button>
               <button id="times-btn">
-                <i class="fa-solid fa-xmark"></i>
+                <i className="fa-solid fa-xmark"></i>
               </button>
               <button id="clear-btn">
-                <i class="fa-solid fa-delete-left"></i>
+                <i className="fa-solid fa-delete-left"></i>
               </button>
-            </div>
-          </div>
-          <div class="calc-output-container">
+            </BtnRow>
+          </CalcBtnContainer>
+          <div className="calc-output-container">
             <h3 id="output"></h3>
           </div>
-        </form>
+        </Calculator>
       </SubcontentContainer>
     </>
   );

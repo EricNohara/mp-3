@@ -64,3 +64,7 @@ a:hover {
   text-shadow: 0 0 20px white;
   transition-duration: 0.2s;
 }
+
+.warning::placeholder {
+  color: red;
+}
