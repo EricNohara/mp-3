@@ -18,7 +18,7 @@ import { PageContentContainer } from "./components/GlobalStyledComponents";
 
 const Root = () => {
   return (
-    <div>
+    <>
       <Header />
       <PageContentContainer>
         <Navigation />
@@ -34,7 +34,7 @@ const Root = () => {
         </main>
       </PageContentContainer>
       <Footer />
-    </div>
+    </>
   );
 };
 

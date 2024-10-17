@@ -48,6 +48,7 @@ export const ImgContentContainer = styled.div`
 
   ul {
     margin-left: 2rem;
+    align-self: center;
   }
 
   @media (max-width: 1200px) {
@@ -63,6 +64,10 @@ export const ImgContentContainer = styled.div`
 export const PageContentContainer = styled.div`
   display: flex;
   flex-grow: 1;
+
+  @media (max-width: 750px) {
+    flex-direction: column;
+  }
 `;
 
 export const PortraitImg = styled.img`

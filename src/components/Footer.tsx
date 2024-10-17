@@ -22,7 +22,7 @@ export default function Footer() {
     <StyledFooter>
       <p>
         All Rights Reserved by Eric Nohara-LeClair
-        <Link to="/contact"> Credits</Link> &copy;
+        <Link to="/contact"> (Credits)</Link> &copy;
       </p>
     </StyledFooter>
   );
