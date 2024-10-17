@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const StyledFooter = styled.footer`
   width: 100%;
@@ -21,7 +22,7 @@ export default function Footer() {
     <StyledFooter>
       <p>
         All Rights Reserved by Eric Nohara-LeClair
-        <a href="/contact.html">Credits</a> &copy
+        <Link to="/contact"> Credits</Link> &copy;
       </p>
     </StyledFooter>
   );
