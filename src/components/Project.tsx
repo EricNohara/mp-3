@@ -1,7 +1,7 @@
 import {
   SubcontentContainer,
   ImgContentContainer,
-} from "./GlobalStyledComponents";
+} from "./styled/GlobalStyledComponents";
 
 import ProjectType from "../interfaces/Projecttype";
 

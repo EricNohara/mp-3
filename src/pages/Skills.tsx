@@ -1,7 +1,7 @@
 import {
   PageTitle,
   SubcontentContainer,
-} from "../components/GlobalStyledComponents";
+} from "../components/styled/GlobalStyledComponents";
 
 export default function Skills() {
   return (

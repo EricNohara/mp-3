@@ -3,7 +3,7 @@ import {
   PageTitle,
   ImgContentContainer,
   PortraitImg,
-} from "../components/GlobalStyledComponents";
+} from "../components/styled/GlobalStyledComponents";
 
 export default function Contact() {
   return (

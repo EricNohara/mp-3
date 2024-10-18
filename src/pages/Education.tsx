@@ -2,7 +2,7 @@ import {
   PageTitle,
   PageContentContainer,
   SubcontentContainer,
-} from "../components/GlobalStyledComponents";
+} from "../components/styled/GlobalStyledComponents";
 
 export default function Education() {
   return (

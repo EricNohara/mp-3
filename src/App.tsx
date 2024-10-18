@@ -14,7 +14,7 @@ import Skills from "./pages/Skills";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
-import { PageContentContainer } from "./components/GlobalStyledComponents";
+import { PageContentContainer } from "./components/styled/GlobalStyledComponents";
 
 const Root = () => {
   return (
