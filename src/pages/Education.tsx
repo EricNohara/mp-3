@@ -1,6 +1,5 @@
 import {
   PageTitle,
-  PageContentContainer,
   SubcontentContainer,
 } from "../components/styled/GlobalStyledComponents";
 
