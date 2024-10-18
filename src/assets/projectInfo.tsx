@@ -1,4 +1,4 @@
-import ProjectType from "../interfaces/Projecttype";
+import ProjectType from "../interfaces/ProjectType";
 
 const projects: ProjectType[] = [
   {

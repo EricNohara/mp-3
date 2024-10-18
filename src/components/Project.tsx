@@ -3,7 +3,7 @@ import {
   ImgContentContainer,
 } from "./styled/GlobalStyledComponents";
 
-import ProjectType from "../interfaces/Projecttype";
+import ProjectType from "../interfaces/ProjectType";
 
 export default function Project(props: { project: ProjectType }) {
   return (
