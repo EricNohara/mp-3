@@ -12,7 +12,7 @@ export default function Home() {
       <PageTitle>Home</PageTitle>
       <BioContainer>
         <PortraitImg
-          src="/public/Eric_Portrait_Square.jpg"
+          src="/Eric_Portrait_Square.jpg"
           alt="Eric Professional Headshot"
           loading="lazy"
           height="200px"

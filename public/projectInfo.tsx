@@ -5,7 +5,7 @@ const projects: ProjectType[] = [
     title: "TripSync: Shared File Storage App",
     demo: "https://tripsync-zh42.onrender.com/",
     github: "https://github.com/EricNohara/TripSync",
-    img: "/public/tripsync-ss.PNG",
+    img: "/tripsync-ss.PNG",
     caption: "TripSync Project Image",
     descriptions: [
       "Implemented REST API backend using Node.js with Express, stored user data using MongoDB, integrated cloud storage with AWS (S3), handled authentication with JWT, and utilized Handlebars for server-side rendering.",
@@ -17,7 +17,7 @@ const projects: ProjectType[] = [
     demo: "https://drive.google.com/drive/folders/1SGPjzqW3uOtwZvEsnllC91_HD7ibE_Vc",
     github:
       "https://github.com/EricNohara/Webserver-Integrated-Arduino-Attendance-Tracker",
-    img: "/public/project11-crop-min.jpg",
+    img: "/project11-crop-min.jpg",
     caption: "Arduino Project Image",
     descriptions: [
       "Multithreaded webserver in C using socket interface. Handles HTTP requests, HTML error codes, CGI scripts.",
@@ -29,7 +29,7 @@ const projects: ProjectType[] = [
     title: "Daily SMS Workout Sender",
     demo: null,
     github: "https://github.com/EricNohara/Python-SMS-Workout_Sender",
-    img: "/public/SMS_workouts.jpg",
+    img: "/SMS_workouts.jpg",
     caption: "Daily SMS Workout Sender Image",
     descriptions: [
       "Utilized Python code using pandas library and google sheets API to store workout data on google sheets.",
