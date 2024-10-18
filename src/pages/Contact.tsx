@@ -12,7 +12,7 @@ export default function Contact() {
       <SubcontentContainer>
         <ImgContentContainer>
           <PortraitImg
-            src="/src/assets/Eric_Portrait_Square.jpg"
+            src="/public/Eric_Portrait_Square.jpg"
             alt="Eric Professional Headshot"
             loading="lazy"
             height="200px"

@@ -5,7 +5,7 @@ import {
 
 import Project from "../components/Project";
 import Calculator from "../components/Calculator";
-import projects from "../assets/projectInfo";
+import projects from "../../public/projectInfo";
 
 export default function Projects() {
   return (
