@@ -16,7 +16,7 @@ import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
 import { PageContentContainer } from "./components/styled/GlobalStyledComponents";
 
-const Root = () => {
+const Root: React.FC = () => {
   return (
     <>
       <Header />
